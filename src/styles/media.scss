@@ -1,0 +1,54 @@
+// resolutions
+$desktopFHD: 1920px;
+$desktop: 1440px;
+$laptopsDPI: 1280px;
+$laptops: 960px;
+$tablets: 600px;
+$phones: 480px;
+$vertical: 321px;
+
+@function rem($px) {
+  @return $px / 16px + 0rem;
+}
+
+@mixin desktopFHD {
+  @media screen and (min-width: $desktopFHD) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: $desktop) {
+    @content;
+  }
+}
+
+@mixin laptopsDPI {
+  @media screen and (min-width: $laptopsDPI) {
+    @content;
+  }
+}
+
+@mixin laptops {
+  @media screen and (min-width: $laptops) {
+    @content;
+  }
+}
+
+@mixin tablets {
+  @media screen and (min-width: $tablets) {
+    @content;
+  }
+}
+
+@mixin phones {
+  @media screen and (min-width: $phones) {
+    @content;
+  }
+}
+
+@mixin vertical {
+  @media screen and (min-width: $vertical) {
+    @content;
+  }
+}

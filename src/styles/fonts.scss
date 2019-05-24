@@ -1,0 +1,45 @@
+/* material-ui icons */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/* roboto-latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src:
+    local('Roboto'),
+    local('Roboto-Light'),
+    url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap') format('woff2') /* Super Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Roboto-Regular'),
+    local('Roboto-Regular'),
+    url('https://fonts.googleapis.com/css?family=Roboto:400&display=swap') format('woff2') /* Super Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src:
+    local('Roboto Medium'),
+    local('Roboto-Medium'),
+    url('https://fonts.googleapis.com/css?family=Roboto:500&display=swap') format('woff2') /* Super Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local('Roboto Bold'),
+    local('Roboto-Bold'),
+    url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap') format('woff2') /* Super Modern Browsers */
+}
+
+

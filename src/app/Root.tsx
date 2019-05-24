@@ -1,10 +1,12 @@
 import React from 'react';
 
+import CssBaseLine from '@material-ui/core/CssBaseline';
+
 const Root: React.FC = () => {
   return (
-    <div className="App">
-      Learn React
-    </div>
+    <React.Fragment>
+      <CssBaseLine/>
+    </React.Fragment>
   );
 };
 

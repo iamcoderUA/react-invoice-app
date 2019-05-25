@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import { NavMenuList } from '../core/interfaces/nav-menu-list';
+import { NavMenuList } from '../../core/interfaces/nav-menu-list';
 
 import './header.scss'
 

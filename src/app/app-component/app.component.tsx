@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 
-import Header from '../shared/header.component';
+import Header from '../shared/header/header.component';
 import Customers from '../customers/customers.component';
 import Products from '../products/products.component';
 import Invoices from '../invoices/invoices.component';

@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom';
 
 import { NavMenuList } from '../core/interfaces/nav-menu-list';
 
+import './header.scss'
+
 const Header: React.FC<NavMenuList> = ({navMenuList}) => {
   const navMenuListItems = navMenuList.map(item =>
     <li className='nav-list__item' key={item.title}>
@@ -18,11 +20,13 @@ const Header: React.FC<NavMenuList> = ({navMenuList}) => {
   
   return (
     <header className='header'>
-      <nav className='nav'>
-        <ul className='nav-list'>
-          {navMenuListItems}
-        </ul>
-      </nav>
+      <div className="header-container">
+        <nav className='nav'>
+          <ul className='nav-list'>
+            {navMenuListItems}
+          </ul>
+        </nav>
+      </div>
     </header>
   );
 };

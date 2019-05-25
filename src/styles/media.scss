@@ -11,13 +11,13 @@ $vertical: 321px;
   @return $px / 16px + 0rem;
 }
 
-@mixin desktopFHD {
+@mixin desktop {
   @media screen and (min-width: $desktopFHD) {
     @content;
   }
 }
 
-@mixin desktop {
+@mixin laptopsHDPI {
   @media screen and (min-width: $desktop) {
     @content;
   }

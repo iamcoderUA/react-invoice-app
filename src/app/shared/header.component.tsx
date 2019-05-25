@@ -5,7 +5,7 @@ import { NavMenuList } from '../core/interfaces/nav-menu-list';
 
 const Header: React.FC<NavMenuList> = ({navMenuList}) => {
   const navMenuListItems = navMenuList.map(item =>
-    <li key={item.title}>
+    <li className='nav-list__item' key={item.title}>
       <NavLink
         to={item.link}
         className='nav-list__link'

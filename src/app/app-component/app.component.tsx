@@ -7,10 +7,8 @@ import Products from '../products/products.component';
 import Invoices from '../invoices/invoices.component';
 import NotFound from '../not-found/not-found.component';
 
-import { NavMenuItem } from '../core/interfaces/nav-menu-item';
-
 const App: React.FC = () => {
-  const navMenuList: NavMenuItem[] = [
+  const navMenuList: {title: string, link: string}[] = [
     {
       title: 'Customers',
       link: '/customers',

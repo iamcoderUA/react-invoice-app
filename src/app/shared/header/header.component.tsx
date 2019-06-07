@@ -1,12 +1,17 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import { NavMenuList } from '../../core/interfaces/nav-menu-list';
-
 import './header.scss'
 
-const Header: React.FC<NavMenuList> = ({navMenuList}) => {
-  const navMenuListItems = navMenuList.map(item =>
+export interface NavMenuItem {
+  title: string,
+  link: string,
+}
+
+type Props = {navMenuList: NavMenuItem[]}
+
+const Header: React.FC<Props> = ({navMenuList}) => {
+  const navMenuListItems = navMenuList.map((item: NavMenuItem) =>
     <li className='nav-list__item' key={item.title}>
       <NavLink
         to={item.link}

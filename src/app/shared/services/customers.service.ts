@@ -2,7 +2,7 @@ import { ajax } from 'rxjs/ajax';
 
 import { environment } from '../../../environment';
 
-import { RequestServiceCustomers } from '../../core/interfaces/requests';
+import { RequestServiceCustomers } from '../interfaces/requests';
 
 class CustomersService implements RequestServiceCustomers {
   

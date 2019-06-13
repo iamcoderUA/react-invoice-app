@@ -1,5 +1,5 @@
-import { Observable } from "rxjs";
-import { AjaxResponse } from "rxjs/ajax";
+import { Observable } from 'rxjs';
+import { AjaxResponse } from 'rxjs/ajax';
 
 import { Customer } from './customer';
 
